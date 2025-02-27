@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<center>
+
+
+    <h2>Students Table</h2>
+    <table border="2px Solid Black">
+        <!--tr stands for table row-->
+        <!--th stands for table header-->
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Grade</th>
+        </tr>
+        <!--td stands for table data-->
+        <tr>
+            <td>01</td>
+            <td>Vinayak</td>
+            <td>Web Development</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Rajesh</td>
+            <td>Data Analytics</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Yash</td>
+            <td>Database Management</td>
+            <td>A+</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>komal</td>
+            <td>Medical Coding</td>
+            <td>O</td>
+        </tr>
+
+    </table>
+</center>
+
+<form>
+    <label for="student_id">Student ID:</label>
+    <input type="text" id="student_id" name="student_id" required><br>
+
+    <label for="name">Name:</label>
+    <input type ="text" id="name" name="name" required><br>
+
+    <label for="course">Course:</label><br>
+
+    <input type ="checkbox"  name="DBA">
+    <label for="webd">Database Management</label><br>
+    <input type ="checkbox"  name="webd">
+    <label for="webd">Data Analytics</label><br>
+    <input type ="checkbox"  name="dsa">
+    <label for="webd">Medical Coder</label><br>
+    <input type ="checkbox" name="MdCoder">
+    <label for="webd">Web Development</label><br>
+   
+    <label for ="grade">Grade: </label><br>
+    <input type="radio" name="grade" value="O">
+    <label for ="grade">O </label><br>
+    <input type="radio" name="grade" value="A+">
+    <label for ="grade">A+ </label><br>
+    <input type="radio" name="grade" value="A">
+    <label for ="grade">A </label><br>
+    <input type="radio" name="grade" value="B">
+    <label for ="grade">B </label><br><br>
+    <label for ="email">Email:</label>
+    <input type ="email"><br>
+    <label for ="file">Upload Resume</label>
+    <input type="file"><br>
+    
+    <input type="submit" value="Submit"><br>
+    
+    
+</form>
+</body>
+</html>
